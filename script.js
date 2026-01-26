@@ -1,18 +1,18 @@
 const offers = [
   {
-    img: "./Project 3/slider1.jpg",
+    img: "slider1.jpg",
     title: "Vegetarian Pasta",
     desc: "Delicious pasta with fresh vegetables",
     price: "$18.00"
   },
   {
-    img: "./Project 3/slider2.jpg",
+    img: "slider2.jpg",
     title: "Pizza Margherita",
     desc: "Classic Italian pizza",
     price: "$15.00"
   },
   {
-    img: "./Project 3/slider3.jpg",
+    img: "slider3.jpg",
     title: "Cheese Burger",
     desc: "Juicy burger with cheese",
     price: "$12.00"
@@ -49,49 +49,49 @@ const menuItems = [
     name: "LASAL CHEESE",
     price: "$18.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/gallary3.jpg"
+    img: "gallary3.jpg"
   },
   {
     name: "KOFTA MEAT",
     price: "$40.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/gallary4.jpg"
+    img: "gallary4.jpg"
   },
   {
     name: "JUMBO CRAB SHRIMP",
     price: "$24.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/gallary5.jpg"
+    img: "gallary5.jpg"
   },
   {
     name: "SPANISH PIES",
     price: "$14.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/gallary6.jpg"
+    img: "gallary6.jpg"
   },
   {
     name: "KOKTAIL JUICE",
     price: "$12.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu5.jpg"
+    img: "menu5.jpg"
   },
   {
     name: "CHEESE TOST",
     price: "$6.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu6.jpg"
+    img: "menu6.jpg"
   },
   {
     name: "CAPO STEAK",
     price: "$60.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu7.jpg"
+    img: "menu7.jpg"
   },
   {
     name: "FRUIT SALAD",
     price: "$14.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu8.jpg"
+    img: "menu8.jpg"
   },
   {
     name: "ORGANIC FRUIT SALAD",
@@ -103,19 +103,19 @@ const menuItems = [
     name: "CHICKEN SHAWARMA",
     price: "$20.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu10.jpg"
+    img: "menu10.jpg"
   },
   {
     name: "CHEESE PIZZA",
     price: "$18.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu11.jpg"
+    img: "menu11.jpg"
   },
   {
     name: "MEGA CHEESE PIZZA",
     price: "$30.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu12.jpg"
+    img: "menu12.jpg"
   }
 ];
 
@@ -139,12 +139,12 @@ menuItems.forEach(item => {
 
 
 let images = [
-"./Project 3/gallary1.jpg" ,
-"./Project 3/gallary2.jpg" ,
- "./Project 3/menu11.jpg" ,
-  "./Project 3/menu5.jpg" ,
-  "./Project 3/menu8.jpg" ,
-  "./Project 3/menu7.jpg", 
+"gallary1.jpg" ,
+"gallary2.jpg" ,
+ "menu11.jpg" ,
+  "menu5.jpg" ,
+  "menu8.jpg" ,
+  "menu7.jpg", 
 ];
 
 let currentIndex = 0;
