@@ -1,0 +1,230 @@
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url("back 1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero Content */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: #ddd;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.design {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.design h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.design .desc {
+  width: 70%;
+  margin: auto;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.design-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.design-item {
+  width: 32%;
+}
+
+.design-item i {
+  font-size: 30px;
+  color: #fff;
+  background: #5bc0eb;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.design-item h4 {
+  margin-bottom: 10px;
+}
+
+.design-item p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+.gallery {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.gallery-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(28, 154, 238, 0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.overlay i {
+  color: #fff;
+  font-size: 30px;
+}
+
+.item:hover .overlay {
+  display: flex;
+}
+
+
+/* Stay Section */
+.stay {
+  background: url("images/contact-bg.jpg") center/cover no-repeat;
+  color: #fff;
+}
+
+.overlay-bg {
+  background: rgba(0,0,0,0.6);
+  padding: 80px 0;
+}
+
+.stay h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.stay p {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.stay form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.stay input,
+.stay textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #61c2f7;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.stay textarea {
+  height: 120px;
+  resize: none;
+}
+
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stay{
+  background-image: url('back 2.jpg');
+}
+input[type="submit"] {
+  background: transparent;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  border: solid 1px #61c2f7;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #111;
+}
+
+.footer a {
+  color: #61c2f7;
+  font-size: 24px;
+  margin: 0 10px;
+}
