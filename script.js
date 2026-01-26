@@ -97,7 +97,7 @@ const menuItems = [
     name: "ORGANIC FRUIT SALAD",
     price: "$8.00",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: "./Project 3/menu9.jpg"
+    img: "menu9.jpg"
   },
   {
     name: "CHICKEN SHAWARMA",
