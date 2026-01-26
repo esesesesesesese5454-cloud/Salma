@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offers Slider</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Offers Section -->
+  <div class="title">
+<h2>Our Special Offers</h2>
+<p>More than 25+ years of experience</p>
+</div>
+  <section class="offers">
+    
+
+
+    <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+
+    <div class="slide">
+      <img id="offer-img" src="./Project 3/slider1.jpg" alt="offer">
+      <h2 id="offer-title">Vegetarian Pasta</h2>
+      <p id="offer-desc">Delicious pasta with fresh vegetables</p>
+      <span id="offer-price">$18.00</span>
+    </div>
+
+    <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+  </section>
+
+
+<section class="menu">
+  <h2>Our Special Menu</h2>
+  <p class="subtitle">Order two and get third for free</p>
+
+  <div class="menu-container" id="menuContainer"></div>
+
+  <button class="btn">Explore Full Menu</button>
+</section>
+
+<section class="gallery-section">
+  <h2>Our Food Gallery</h2>
+
+  <div class="gallery">
+    <img src="./Project 3/gallary1.jpg" onclick="openSlider(0)">
+    <img src="./Project 3/gallary2.jpg" onclick="openSlider(1)">
+    <img src="./Project 3/menu11.jpg" onclick="openSlider(2)">
+    <img src="./Project 3/menu5.jpg" onclick="openSlider(3)">
+    <img src="./Project 3/menu8.jpg" onclick="openSlider(4)">
+    <img src="./Project 3/menu7.jpg" onclick="openSlider(5)">
+  </div>
+</section>
+
+<!-- Slider -->
+<div class="slider" id="slider">
+  <span class="close" onclick="closeSlider()">×</span>
+  <span class="prev" onclick="changeSlide(-1)">❮</span>
+  <img id="slider-img">
+  <span class="next" onclick="changeSlide(1)">❯</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+<section id="contact">
+  <div class="container">
+
+    <!-- LEFT -->
+    <div class="left">
+      <h3>ADDRESS</h3>
+      <p><i class="fa-solid fa-location-dot"></i> Mansoura, Beside stadium , Egypt</p>
+      <p><i class="fa-solid fa-phone"></i> Phone: 123456789</p>
+      <p><i class="fa-solid fa-envelope"></i> support@foodlover.com</p>
+
+      <h3>WORKING HOURS</h3>
+      <p>8:00 am to 11:00 pm on Weekdays</p>
+      <p>11:00 am to 1:00 Am on Weekends</p>
+
+      <h3>FOLLOW US</h3>
+      <div class="social">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+      <form id="form">
+        <input type="text" id="name" placeholder="Name">
+        <small id="nameError"></small>
+
+        <input type="email" id="email" placeholder="Email">
+        <small id="emailError"></small>
+
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Message"></textarea>
+
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
