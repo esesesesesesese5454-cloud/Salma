@@ -1,0 +1,143 @@
+/* Tailwind CSS v3.4.1 | MIT License */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.bg-red-500 {
+  background-color: #ef4444;
+}
+.text-white {
+  color: #fff;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.h-screen {
+  height: 100vh;
+}
+
+/* ===== Navbar Utilities ===== */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* ===== Hero Utilities ===== */
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.leading-tight {
+  line-height: 1.2;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
